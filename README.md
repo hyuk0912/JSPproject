@@ -26,3 +26,8 @@ October/2020 - November/2020
 Language : JAVA, JSP, HTML, CSS, Javascript
 Library : json, cos, JQuery
 Database : oracle
+
+# YouTube Link
+https://www.youtube.com/watch?v=I8lGndO-Z8Q&feature=youtu.be
+JSP 프로젝트 발표 링크
+안신혁 5:30 ~ 9:35
