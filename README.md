@@ -24,7 +24,9 @@ October/2020 - November/2020
 
 # Stack
 Language : JAVA, JSP, HTML, CSS, Javascript
+
 Library : json, cos, JQuery
+
 Database : oracle
 
 # YouTube Link
