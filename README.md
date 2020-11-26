@@ -15,9 +15,13 @@ Using Ajax, JSON data is received through Riot's official API key, parsed, and d
 
 # Maintainer
 유의상 (devYoooo)👑(팀장)
+
 이지연 (dev-Ji)
+
 안신혁 (hyuk0912)
+
 이슬아 (seulAh0729)
+
 
 # Period
 October/2020 - November/2020
@@ -31,5 +35,6 @@ Database : oracle
 
 # YouTube Link
 https://www.youtube.com/watch?v=I8lGndO-Z8Q&feature=youtu.be
+
 JSP 프로젝트 발표 링크
 안신혁 5:30 ~ 9:35
