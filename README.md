@@ -39,3 +39,10 @@ https://www.youtube.com/watch?v=I8lGndO-Z8Q&feature=youtu.be
 JSP 프로젝트 발표 링크
 
 안신혁 5:30 ~ 9:35
+
+# 참여 파트
+챔피언 공략리스트리스트, 작성, 리드 파트
+공략 게시판 댓글 CRUD
+공략 게시판 추천
+챔피언 정보 API (AJAX)
+게시글 검색
