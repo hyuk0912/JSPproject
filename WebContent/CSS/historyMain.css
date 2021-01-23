@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+.container{
+	width: 1200px;
+}
+
+#summoner{
+	margin-top: 30px;
+	border: 1px solid gray;
+	width: 1110px;
+	display: flex;
+	flex-direction: row;
+}
+#summoner_img{
+	width: 150px;
+	height: 150px;
+}
+#summoner_img img{
+	width: 100%;
+	height: 100%;
+}
+#summoner_info{
+	width: 900px;
+	margin-left: 30px;
+	/* background-color: aqua; */
+}
+#league{
+	display: flex;
+	justify-content: space-between; 
+	margin-top: 40px;
+	
+}
+#leagueSolo{
+	display: flex;
+	flex-direction: row;
+	width: 580px;
+	height: 200px;
+	border: 1px solid gray;
+}
+#leagueSolo img{
+	width:40%;
+	height:100%;
+}
+#soloInfo{
+	width: 60%;
+	/* background-color: yellow; */
+}
+#leagueFlex{
+	display: flex;
+	flex-direction: row;
+	width: 580px;
+	height: 200px;
+	border: 1px solid gray;
+}
+#leagueFlex img{
+	width: 40%;
+	height: 100%;
+}
+#flexInfo{
+	width: 60%;
+	/* background-color: green; */
+}
+
+
+#champion_mastery{
+	margin-top: 40px;
+	border: 1px solid gray;
+	width: 1110px;
+	height: 600px;
+	display: flex;
+}
+#mastery_img{
+	width: 65px;
+	height: 598px;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center;
+	align-items: center; */
+	border: 1px solid gray;
+}
+.mastery_imgs{
+    width: 65px;
+    height: 59px;
+    max-width: 65px;
+    max-height: 59px;
+}
+#mastery_info{
+	margin-left: 20px;
+	width: 1000px;
+	height: 100%;
+	/* background-color: blue; */
+}
+.mastery_infos{
+	width: 100%;
+	height: 60px;
+}
+.mastery_infos b{
+	font-size: 25px;
+}
+.mastery_infos initLevel{
+	font-size: 20px;
+}
+.mastery_infos initPoint{
+	align-items: flex-end;
+	font-size: 20px;
+}
+
+#recentPlay{
+	margin-top: 40px;
+	height: 50vh;
+	border: 1px solid gray;
+}
+.recentPlayOut{
+	width:1105px;
+	height:20%;
+	border: 1px solid gray;
+	display:flex;
+	align-items: center;
+}
+
+/* 나의승리여부 */
+.recentPlay_info1{
+	width: 4%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid gray;
+}
+
+/* 내가 고른 챔피언이미지 */
+.recentPlay_info2{ 
+	width: 50px;
+	height: 50px;
+	margin-left: 2px;
+	margin-right: 2px;
+	border-radius: 70%;
+    overflow: hidden;
+}
+.recentPlay_info2 img{ 
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.recentPlay_info3{
+	width: 130px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.recentPlay_info4{
+	width: 130px;
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid gray;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.recentPlay_info5{
+	width: 130px;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid gray;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.recentPlay_info5 img{
+	width: 30%;
+	height: 80%;
+	margin-right: 5px;
+}
+.recentPlay_info6{
+	width: 250px;
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid gray;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.recentPlay_info6 img{
+	width: 15%;
+	height: 90%;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+.recentPlay_info7{
+	width: 280px;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid gray;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.recentPlay_info7 img{
+	width: 10%;
+	height: 80%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+

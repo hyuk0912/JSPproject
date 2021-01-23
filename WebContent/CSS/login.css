@@ -1,0 +1,393 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+/*로그인 회원가입 버튼*/
+#headerMain .btn {
+	float: right;
+	margin-top: 4%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+/*메뉴바*/
+.navbar {
+	clear: both;
+}
+
+/*메뉴바 --> 아이콘*/
+.menuicon {
+	width: 50%;
+}
+/*메뉴바 --> 상단메뉴 부분*/
+.nav-item {
+	font-size: 18px;
+}
+
+/*메뉴바 --> 상단메뉴 각각 div*/
+.menu {
+	margin-left: 90px;
+}
+/*메뉴바 상단메뉴 전체 div*/
+#collapsibleNavbar {
+	margin-left: 120px;
+}
+/*테두리*/
+.input100 {
+	outline: none;
+	border: none;
+}
+
+
+
+.input100 :focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+.input100 :focus:-moz-placeholder {
+	color: transparent;
+}
+
+.input100 :focus::-moz-placeholder {
+	color: transparent;
+}
+
+.input100 :focus:-ms-input-placeholder {
+	color: transparent;
+}
+
+
+
+.input100 ::-webkit-input-placeholder {
+	color: pink;
+}
+
+.input100 :-moz-placeholder {
+	color: #999999;
+}
+
+.input100 ::-moz-placeholder {
+	color: #999999;
+}
+
+.input100 :-ms-input-placeholder {
+	color: #999999;
+}
+
+.btn-social{
+margin-top: 200px;
+	}
+
+
+/*로그인 버튼*/
+.login100-form-btn {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+.login100-form-btn:hover {
+	cursor: pointer;
+}
+
+/*아이디찾기*/
+.txt1 {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+}
+
+.txt1:focus {
+	outline: none !important;
+}
+
+.txt1:hover {
+	text-decoration: none;
+	color: #57b846;
+}
+/*비밀번호찾기*/
+.txt2 {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+}
+
+.txt2:focus {
+	outline: none !important;
+}
+
+.txt2:hover {
+	text-decoration: none;
+	color: #57b846;
+}
+
+
+
+
+/*계정생성*/
+.txt3 {
+	font-family: 'Noto Sans KR', sans-serif;
+	text-align : center;
+	font-size: 15px;
+}
+
+.btn-social{
+	
+	margin-top: 150px;
+
+}
+
+
+/*로그인 전체 div*/
+.limiter {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*배경화면*/
+.container-login100 {
+	width: 100%;
+	min-height: 100vh;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	background: #9053c7;
+	background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+	background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+	background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+	background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+/*로그인폼 네모박스*/
+.wrap-login100 {
+	width: 960px;
+	height: 800px;
+	background: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 177px 130px 33px 95px;
+}
+/*왼쪽 이미지 크기*/
+.login100-pic {
+	width: 430px;
+	
+}
+
+
+.login100-pic img {
+	max-width: 100%;
+
+}
+
+/*로그인 폼*/
+.login100-form {
+	width: 290px;
+	margin-top: -10%;
+	margin-left: 18%;
+}
+
+
+/*로그인 제목 부분( 'OP.IT 로그인')*/
+.loginfont {
+	font-family: 'Black Han Sans', sans-serif;
+	color: #333333;
+	line-height: 1.2;
+	text-align: center;
+	width: 100%;
+	display: block;
+
+}
+
+
+/*아이디를 입력해주세요  div*/
+.wrap-input100 {
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	margin-bottom: 20px;
+}
+/*아이디를 입력해주세요 input 부분*/
+.input100 {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #666666;
+	display: block;
+	width: 100%;
+	background: #e6e6e6;
+	height: 50px;
+	border-radius: 25px;
+	padding: 0 30px 0 68px;
+}
+
+/*아이디 비밀번호 input 클릭시 효과*/
+.focus-input100 {
+	display: block;
+	position: absolute;
+	border-radius: 25px;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0px 0px 0px 0px;
+	color: rgba(87, 184, 70, 0.8);
+}
+
+.input100:focus+.focus-input100 {
+	-webkit-animation: anim-shadow 0.5s ease-in-out forwards;
+	animation: anim-shadow 0.5s ease-in-out forwards;
+}
+
+.input100:focus + .focus-input100 + .symbol-input100 {
+  color: #57b846;
+  padding-left: 28px;
+}
+
+@-webkit-keyframes anim-shadow {
+  to {
+    box-shadow: 0px 0px 70px 25px;
+    opacity: 0;
+  }
+}
+
+@keyframes anim-shadow {
+  to {
+    box-shadow: 0px 0px 70px 25px;
+    opacity: 0;
+  }
+}
+
+/*아이디 아이콘*/
+.symbol-input100 {
+	font-size: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	border-radius: 25px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-left: 35px;
+	pointer-events: none;
+	color: #666666;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.input100:focus+.focus-input100+.symbol-input100 {
+	color: #57b846;
+	padding-left: 28px;
+}
+
+/*로그인 버튼 div*/
+.container-login100-form-btn {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 20px;
+}
+/*로그인 버튼*/
+.login100-form-btn {
+	font-family: Montserrat-Bold;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #fff;
+	text-transform: uppercase;
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	background: #57b846;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 25px;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.login100-form-btn:hover {
+	background: #333333;
+}
+
+@media ( max-width : 992px) {
+	.wrap-login100 {
+		padding: 177px 90px 33px 85px;
+	}
+	.login100-pic {
+		width: 35%;
+	}
+	.login100-form {
+		width: 50%;
+
+
+	}
+}
+
+@media ( max-width : 768px) {
+	.wrap-login100 {
+		padding: 100px 80px 33px 80px;
+	}
+	.login100-pic {
+		display: none;
+	}
+	.login100-form {
+		width: 100%;
+	}
+}
+
+@media ( max-width : 576px) {
+	.wrap-login100 {
+		padding: 100px 15px 33px 15px;
+	}
+
+}

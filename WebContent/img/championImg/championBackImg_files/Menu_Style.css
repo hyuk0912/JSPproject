@@ -1,0 +1,77 @@
+/*********************************************
+Note : 안내테스크 색상
+*********************************************/
+.Default_backColor,#CSpaper_Menu a,#CSpager_Layer .title strong {background-color:#cd411c;}
+.Default_textColor {color:#cd411c;}
+
+/*********************************************
+Note : 기본레이아웃
+*********************************************/
+/* 상단 */
+#HeadTop {overflow:hidden; width:100%; height:37px;}
+/* 로고 */
+#HeadLogo {overflow:hidden; width:100%; margin-bottom:10px;}
+#HeadLogo,#HeadLogo td {height:80px;}
+/* 메뉴바 */
+#HeadMenu {overflow:hidden; width:100%;}
+/* 기본영역정의(960px) */
+#Default_Warp {overflow:hidden; width:960px; margin:0 auto;}
+
+#Default_Warp a:hover {text-decoration:none;}
+
+/*********************************************
+Note : 메뉴바
+*********************************************/
+#MenuBar {position:relative; overflow:hidden; width:960px; height:69px; background:url('./Default_MenuBar.png') no-repeat left top; text-align:left; letter-spacing:-1px;}
+ul.mega-menu li.megaline,ul.mega-menu li.megaline ul li.sub {float:left; overflow:visible;}
+ul.mega-menu a,ul.mega-menu strong {float:left;}
+ul.mega-menu strong {overflow:hidden;}
+
+/* 1차섹션 */
+ul.mega-menu {position:absolute; overflow:hidden; width:959px; left:0;}
+ul.mega-menu li.megaline {height:67px; background:url('./Default_MenuBar.png') no-repeat right -107px;}
+/* 1차섹션(아웃) */
+ul.mega-menu li.megaline a {color:#fff; font-size:15px; font-family:'Malgun Gothic'; line-height:34px;}
+ul.mega-menu li.megaline a strong {height:38px; padding:0 28px; cursor:pointer;}
+/* 1차섹션(오버) */
+ul.mega-menu li.megaline a:hover,.a-menu-back {}
+ul.mega-menu li.megaline a:hover strong,.s-menu-back {background:url("./Default_MenuBar.png") no-repeat center -69px; color:#fff;}
+/* 2차섹션 */
+ul.mega-menu li.megaline ul {position:absolute; overflow:hidden; display:none; width:960px; height:31px; top:38px;}
+ul.mega-menu li.megaline ul li.sub {padding:0 10px; background:url('./Default_Icon.png') no-repeat left -105px;}
+ul.mega-menu li.megaline ul li.nobr {background:none;}
+ul.mega-menu li.megaline ul li.sub a {height:31px; color:#777; font-size:12px; font-family:'dotum'; line-height:32px; line-height:36px\9; line-height:36px\0;}
+ul.mega-menu li.megaline ul li.sub a:hover {color:#444;}
+
+/*********************************************
+Note : 최종편집
+*********************************************/
+#Update {float:left; overflow:hidden; height:27px; margin-top:5px; color:#969696; font-size:11px; font-family:'dotum'; line-height:26px; line-height:30px\9; line-height:30px\0; letter-spacing:0;}
+#Update strong {color:#cd411c; letter-spacing:-1px;}
+
+/*********************************************
+Note : 로그인
+*********************************************/
+#LoginBtn {float:right; margin-top:5px;}
+#LoginBtn ul,#LoginBtn ul li,#LoginBtn ul li a {float:left; overflow:hidden; height:27px;}
+#LoginBtn ul li {padding:0 10px; background:url('./Default_Icon.png') no-repeat left -60px; line-height:26px; line-height:30px\9; line-height:30px\0; letter-spacing:-1px;}
+#LoginBtn ul li.nobr {background:none;}
+#LoginBtn ul li a {color:#747474; font-size:11px; font-family:'dotum';}
+#LoginBtn ul li.fac,#LoginBtn ul li.twi,#LoginBtn ul li.rss {width:30px; background:none; padding:0;}
+#LoginBtn ul li.fac a,#LoginBtn ul li.twi a,#LoginBtn ul li.rss a {width:30px; line-height:100px;}
+#LoginBtn ul li.fac a {background:url('./Default_Icon.png') no-repeat -100px -60px;}
+#LoginBtn ul li.twi a {background:url('./Default_Icon.png') no-repeat -200px -60px;}
+#LoginBtn ul li.rss a {background:url('./Default_Icon.png') no-repeat -300px -60px;}
+#LoginBtn ul li strong {color:#cd411c;}
+
+/*********************************************
+Note : 기사검색
+*********************************************/
+#SearchForm {position:absolute; overflow:hidden; top:6px; right:3px;}
+#SearchForm fieldset,#SearchForm form,#SearchForm input,#SearchForm button {float:left; overflow:hidden; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+#SearchForm fieldset,#SearchForm input {height:28px; }
+#SearchForm fieldset { padding-left:10px;}
+#SearchForm input,#SearchForm button { border:0;}
+#SearchForm input {width:210px; height:26px;   background:#57A0A6; padding:0 10px; color:#fff; font-size:12px; line-height:32px;}
+#SearchForm input.inptxt {color:#fff; font-size:11px; font-family:'dotum'; letter-spacing:-1px;}
+#SearchForm button {width:30px; height:28px; background:#fff url('./Default_Icon.png') no-repeat left -28px; line-height:100pt; cursor:pointer;}

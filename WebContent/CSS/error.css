@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.message {
+	margin-top: 100px;
+	height: 10vh;
+	text-align: center;
+}
+
+#errorView {
+	width: 1200px;
+	display: flex;
+	height: 30vh;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+#errorView img {
+	width: 50%;
+	height: 100%;
+}

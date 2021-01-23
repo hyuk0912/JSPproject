@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#signOk {
+	text-align: left;
+
+}
+
+#signOk p{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 25px;
+	margin-top: 20px;
+}
+#signupCon {
+
+	padding: 90px;
+}
+
+.welcome {
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 60px;
+	text-align: center;
+
+}
+
+.signup {
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 35px;
+	text-align: center;
+}
+
+.signupMemo {
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 22px;
+	text-align: center;
+	color: #747474;
+}
+
+#signupCon .btn {
+	width: 200px;
+}

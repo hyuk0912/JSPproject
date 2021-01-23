@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#writeBtn {
+	float: right;
+}
+
+.board_menu {
+	border: none;
+}
+
+#noticeListTable {
+	margin-top: 100px;
+	width: 100%;
+	table-layout: fixed;
+}
+
+#searchKind{
+	height:30px;
+}
+
+#searchForm{
+	float: right;
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+
+#textflow{
+	overflow:hidden;
+	white-space : nowrap;
+	text-overflow: ellipsis;
+}
+
+.clear {
+
+clear : both;
+}

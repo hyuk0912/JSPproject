@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+/*전적검색부분*/
+.search {
+	margin-bottom: auto;
+	margin-top: auto;
+	height: 70px;
+	background-color: #fff;
+	border-radius: 40px;
+	padding: 10px
+}
+
+/*전적검색 입력창*/
+.search_input {
+	color: black;
+	font-size: 20px;
+	border: 0;
+	outline: 0;
+	background: none;
+	width: 0;
+	margin-top: 5px;
+	caret-color: transparent;
+	line-height: 40px;
+	transition: width 0.4s linear
+}
+
+/*전적검색버튼*/
+.search
+.search_input {
+	padding: 0 10px;
+	width: 550px;
+	caret-color: black;
+	transition: width 0.4s linear
+}
+
+/*전적검색버튼 호버*/
+.search
+:hover>.search_icon {
+	color: #fff
+}
+
+/*전적검색 돋보기 아이콘*/
+.search_icon {
+	height: 50px;
+	width: 50px;
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	color: white;
+	background-color: black;
+}
+
+
+
+/*백그라운드 영상*/
+.video {
+	position: relative;
+	background-color: black;
+	height: 110vh; /*영상 크기*/
+	min-height: 25rem;
+	width: 100%;
+	overflow: hidden;
+}
+
+.video
+ 
+video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 0;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.video
+ 
+.container {
+	position: relative;
+	z-index: 2;
+}
+
+.video
+ 
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+@media ( pointer : coarse) and (hover: none) {
+	.video {
+		background: url('https://source.unsplash.com/XT5OInaElMw/1600x900')
+			black no-repeat center center scroll;
+	}
+	.video video {
+		display: none;
+	}
+}
+
+/*유투브 동영상*/
+.youtube {
+	padding: 0;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.youtubelogo {
+	font-weight: bold;
+	width: 10%;
+	margin: 10px;
+}
+
+.btn {
+	margin: 20px;
+}
+
+.note {
+	font-size: 15px;
+	color: #747474;
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+.note1 {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+.youtubetag {
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+.youtubenote {
+	margin: 2%;
+}
+

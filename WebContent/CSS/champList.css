@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.championList {
+	float: left;
+	margin: 10px;
+}
+
+.championList:hover img {
+	opacity: 0.7;
+}
+
+#champTitle {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#champSubTitle {
+	margin: 20px;
+	text-align: center;
+}
+
+.clear{
+	clear: both;
+}

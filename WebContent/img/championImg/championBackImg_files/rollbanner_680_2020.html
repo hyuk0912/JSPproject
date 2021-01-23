@@ -1,0 +1,105 @@
+
+<!-- saved from url=(0055)http://www.gamevu.co.kr/banner/rollbanner_680_2020.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title></title>
+<script type="text/javascript">
+/**
+ * Array(�������, ���, �ʺ�, ����, �ð�(��), ��ũ, Ÿ��)
+ * �������(F:�÷���, I:�̹���), ���, ����, ����, �ð�(��) �ʼ�
+ */
+var bannerArray = new Array();
+
+
+//bannerArray[0] = new Array("I", "http://www.gamevu.co.kr/bannerManager/upload/123.jpg", "680", "80", "7000", "http://mtag2.midas-i.com/mrps-tag?cp=3802&me=8463&sp=34115&an=85399&tp=clk", "_blank");	//��������Ÿ��
+//bannerArray[0] = new Array("I", "http://www.gamevu.co.kr/bannerManager/upload/127.jpg", "680", "80", "7000", "http://mtag2.midas-i.com/mrps-tag?cp=3802&me=8463&sp=34115&an=85456&tp=clk", "_blank")//ĥ��;	
+bannerArray[0] = new Array("I", "http://www.gamevu.co.kr/bannerManager/upload/118.jpg", "680", "80", "4000", "https://www.youtube.com/watch?v=xWbwU_L5MLs", "_blank");	//���
+//bannerArray[1] = new Array("I", "http://www.gamevu.co.kr/bannerManager/upload/132.jpg", "680", "80", "7000", "https://arknights.kr/?utm_source=GameView&utm_medium=cpm&utm_campaign=GameViewPC", "_blank");	//200115���Ϲ���
+
+
+
+bannerArray[1] = new Array("I", "http://www.gamevu.co.kr/bannerManager/upload/150.jpg", "680", "80", "7000", "https://honkaiimpact3.mihoyo.com/kr/ko-kr/fab", "_blank");//�ر�3rd
+
+
+var cnt = (bannerArray.length) - 1;
+var key = Math.round(Math.random()*cnt);
+
+function bannerRolling(bannerPk)
+{
+	if(!bannerPk) bannerPk = 0;
+
+	if(bannerArray[bannerPk][0] == "F")
+		changeSwfBanner(bannerArray[bannerPk][1], bannerArray[bannerPk][2], bannerArray[bannerPk][3]);
+	else
+		changeImgBanner(bannerArray[bannerPk][1], bannerArray[bannerPk][2], bannerArray[bannerPk][3], bannerArray[bannerPk][5], bannerArray[bannerPk][6]);
+
+	key++;
+	if(key > cnt) key = 0;
+
+	setTimeout("bannerRolling(key);", bannerArray[bannerPk][4]);
+
+}
+
+function changeSwfBanner(src, width, height)
+{
+ 	document.getElementById("banner").innerHTML = "<object classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' codebase='https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0' width='" + width + "' height='" + height + "'><param name='movie' value='" + src + "'><param name='play' value='true'><param name='loop' value='true'><param name='quality' value='high'><param name='wmode' value='transparent'><embed width='" + width + "' height='" + height + "' src='" + src + "' play='true' loop='true' quality='high' pluginspage='https://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash' wmode='transparent'></embed></object>";
+}
+
+function changeImgBanner(src, width, height, url, target)
+{
+	var bannerStr = "";
+	if(!target) target = "_self";
+ 	if(url)
+		bannerStr = "<a href='"+url+"' target='"+target+"'>";
+
+	bannerStr += "<img src='"+src+"' width='" + width + "' height='" + height + "' border='0'>";
+
+	if(url)
+		bannerStr += "</a>";
+
+	document.getElementById("banner").innerHTML	= bannerStr;
+}
+
+
+var ImgNum = 0;
+var ImgLength = bannerArray.length - 1;
+
+function chgImg(direction, bannerPk) {
+    if (document.images) {
+        ImgNum = ImgNum + direction;
+    if (ImgNum > ImgLength) {
+        ImgNum = 0;
+        }
+    if (ImgNum < 0) {
+        ImgNum = ImgLength;
+
+        }
+	if(!bannerPk) bannerPk = ImgNum;
+
+	if(bannerArray[ImgNum][0] == "F"){
+
+		changeSwfBanner(bannerArray[ImgNum][1], bannerArray[ImgNum][2], bannerArray[ImgNum][3]);
+
+	}else{
+		changeImgBanner(bannerArray[ImgNum][1], bannerArray[ImgNum][2], bannerArray[ImgNum][3], bannerArray[ImgNum][5], bannerArray[ImgNum][6]);
+	}
+	key++;
+	if(key > cnt) key = 0;
+
+	}
+}
+</script>
+</head>
+<body bgcolor="white" text="black" link="blue" vlink="purple" alink="red" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0">
+<table width="250" border="0" cellspacing="0" cellpadding="0">
+	<tbody><tr>
+		<td></td>
+	</tr>
+</tbody></table>
+<div id="banner"><a href="https://www.youtube.com/watch?v=xWbwU_L5MLs" target="_blank"><img src="http://www.gamevu.co.kr/bannerManager/upload/118.jpg" width="680" height="80" border="0"></a></div>
+
+<script type="text/javascript">
+  	bannerRolling(key);
+</script>
+
+</body></html>
