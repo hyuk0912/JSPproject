@@ -31,7 +31,7 @@ Language : JAVA, JSP, HTML, CSS, Javascript
 
 Library : json, cos, JQuery
 
-Database : oracle
+Database : oracle, mybatis
 
 # YouTube Link
 https://www.youtube.com/watch?v=I8lGndO-Z8Q&feature=youtu.be
